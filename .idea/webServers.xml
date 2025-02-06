@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8d07472f-cc67-4786-a84e-ff45c25ba6fe" name="gens" url="https://gens.misspo.ru">
+        <fileTransfer rootFolder="/gens.belgame.ru" host="62.109.14.186" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

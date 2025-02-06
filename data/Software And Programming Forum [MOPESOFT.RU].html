@@ -1,0 +1,3848 @@
+<!DOCTYPE html>
+<html id="XenForo" lang="ru-RU" dir="LTR" class="Public NoJs LoggedOut Sidebar RunDeferred Responsive" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<link rel="stylesheet" href="/styles/FontAwesome/css/font-awesome.min.css">
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	
+		<base href="https://mopesoft.ru/" />
+		<script>
+			var _b = document.getElementsByTagName('base')[0], _bH = "https://mopesoft.ru/";
+			if (_b && _b.href != _bH) _b.href = _bH;
+		</script>
+	
+
+	<title>Software And Programming Forum</title>
+	
+	<noscript><style>.JsOnly, .jsOnly { display: none !important; }</style></noscript>
+	<link rel="stylesheet" href="css.php?css=xenforo,form,public&amp;style=1&amp;dir=LTR&amp;d=1450252492" />
+	<link rel="stylesheet" type="text/css" href="misc/custom-node-icons?d=1440942905" /><link rel="stylesheet" href="css.php?css=VietXfAdvStats,banners_template,bb_code,csnXF_donationData_sidebarBlock,dark_taigachat,login_bar,node_category,node_forum,node_list,notices,panel_scroller,profile_post_list_simple,rellect_nodes_grid,sidebar_share_page,taiga_chat_addons,taiga_chat_collapse,who_visited,xfi_sidebarSocialIconblock&amp;style=1&amp;dir=LTR&amp;d=1450252492" />
+	
+	
+
+	<script>
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-66871916-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+		<script src="js/jquery/jquery-1.11.0.min.js"></script>	
+		
+	<script src="js/xenforo/xenforo.js?_v=ec2ca885"></script>
+	<script src="js/dark/taigachat.js?1447336069&amp;_v=ec2ca885"></script>
+	<script src="js/VietXfAdvStats/frontend.js?_v=ec2ca885"></script>
+
+<script type="text/javascript"> 
+$(document).ready(function() {
+    var e = $(".nodeTitle a.toggle_arrow_shout");
+    e.each(function () {
+       if (jQuery.getCookie('taigachat_collapse')) {
+            cat_node = $(this).closest('.shout');
+            XfCollapseShout(cat_node, true);
+        }
+    });
+    e.click(function() {
+        cat_node = $(this).closest('.shout');
+        XfCollapseShout(cat_node, false);
+    });
+});
+
+function XfCollapseShout(cat_node, fast) {
+    var node_list = cat_node.find('#taigachat_box,#taigachat_controls');
+    var shoutCollapse = cat_node.find('.toggle_arrow_shout');
+
+    if (node_list.is(":visible")) {
+        if (fast) {
+            node_list.hide();
+        } else {
+            node_list.slideUp(800, 'easeOutBounce');
+        }
+        shoutCollapse.addClass('Shoutcollapsed');
+        shoutCollapse.removeClass('Shoutcollapse');
+        jQuery.setCookie('taigachat_collapse', true);
+    } else {
+        if (fast) {
+            node_list.show();
+        } else {
+            node_list.slideDown(800, 'easeOutBounce');
+        }
+        shoutCollapse.addClass('Shoutcollapse');
+        shoutCollapse.removeClass('Shoutcollapsed');
+        jQuery.deleteCookie('taigachat_collapse');
+    }
+}
+</script>
+	
+	<link rel="apple-touch-icon" href="https://mopesoft.ru/styles/default/xenforo/logo.og.png" />
+	<link rel="alternate" type="application/rss+xml" title="RSS-лента для Software And Programming Forum" href="forums/-/index.rss" />
+	
+	<link rel="canonical" href="https://mopesoft.ru/" />
+	<meta name="description" content="Forum software by XenForo" />
+	
+<script type="text/javascript" src="js/xenforo/xtop.js"></script>
+</head>
+
+<body>
+
+
+
+	
+
+<div id="loginBar">
+	<div class="pageWidth">
+		<div class="pageContent">	
+			<h3 id="loginBarHandle">
+				<label for="LoginControl"><a href="login/" class="concealed noOutline">Войти или зарегистрироваться</a></label>
+			</h3>
+			
+			<span class="helper"></span>
+
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="headerMover">
+	<div id="headerProxy"></div>
+
+<div id="content" class="forum_list">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<!-- main content area -->
+			
+			
+			
+			
+				<div class="mainContainer">
+					<div class="mainContent">
+						
+						
+						
+						
+						<div class="breadBoxTop ">
+							
+							
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Открыть быструю навигацию"><!--Перейти к...--></a>
+			
+		<div class="boardTitle"><strong>Software And Programming Forum</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://mopesoft.ru" class="crumb" rel="up" itemprop="url"><span itemprop="title">Главная</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+					<a href="https://mopesoft.ru/" class="crumb" rel="up" itemprop="url"><span itemprop="title">Форум</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+		</span>
+	</fieldset>
+</nav>
+						</div>
+						
+						
+						
+					
+						<!--[if lt IE 8]>
+							<p class="importantMessage">Вы используете устаревший браузер. Этот и другие сайты могут отображаться в нём некорректно.<br />Необходимо обновить браузер или попробовать использовать <a href="https://www.google.com/chrome/browser/" target="_blank">другой</a>.</p>
+						<![endif]-->
+
+						
+						
+
+
+
+
+
+<div class="PanelScroller Notices" data-vertical="0" data-speed="400" data-interval="4000">
+	<div class="scrollContainer">
+		<div class="PanelContainer">
+			<ol class="Panels">
+				
+					<li class="panel Notice DismissParent notice_notice_cookies " data-notice="notice_cookies">
+	
+	<div class="baseHtml noticeContent">Этот сайт использует файлы cookie. Продолжая пользоваться данным сайтом, Вы соглашаетесь на использование нами Ваших файлов cookie. <a href="help/cookies">Узнать больше.</a></div>
+	
+	
+</li>
+				
+					<li class="panel Notice DismissParent notice_2 " data-notice="2">
+	
+	<div class="baseHtml noticeContent">Поддержите нашу группу Вконтакте <a href="https://vk.com/mopesoft_ru">ГРУППА MS</a></div>
+	
+	
+		<a href="account/dismiss-notice?notice_id=2"
+			title="Скрыть объявление" class="DismissCtrl Tooltip" data-offsetx="7" data-tipclass="flipped">Скрыть объявление</a>
+</li>
+				
+			</ol>
+		</div>
+	</div>
+	
+	<div class="navContainer">
+		<span class="navControls Nav JsOnly">
+			
+				<a id="nnotice_cookies" href="/#nnotice_cookies" class="current">
+					<span class="arrow"><span></span></span>
+					<!--1 -->Файлы cookie</a>
+			
+				<a id="n2" href="/#n2">
+					<span class="arrow"><span></span></span>
+					<!--2 -->Поддержите нашу группу Вконтакте</a>
+			
+		</span>
+	</div>
+</div>
+
+
+
+						
+						
+						
+						
+												
+							<!-- h1 title, description -->
+							<div class="titleBar">
+								
+								<h1>Software And Programming Forum</h1>
+								
+								
+							</div>
+						
+						
+						
+						<div class="secondaryContent statsList" style=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Блок правой колонки -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7189715515727046"
+     data-ad-slot="2047363216"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+						
+						<!-- main template -->
+						
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+	
+		
+
+	
+
+
+<div class="section sectionMain nodeList taigachat_alt  taigachat_reverse" id='taigachat_full'>
+	
+		<div class="shout">
+	
+	
+	
+		
+			
+				<div class="nodeInfo categoryNodeInfo categoryStrip">		
+					<div class="categoryText">
+						<h3 class="nodeTitle"><a href="taigachat/">Чат (<span id="taigachat_count">0</span>)</a>
+
+
+<span style="float:right;">
+<span class="category_toggle_container_shout">
+<a class="toggle_arrow_shout Shoutcollapse Tooltip" title="Скрыть/показать чат"></a> 
+</span></span>
+</h3>
+
+<span class="rules_shoutbox"><a href="rules-shoutbox" class="OverlayTrigger button Tooltip" title="Правила чата">&#xf06a;</a> </span>			
+						
+						<a href="taigachat/motd" data-cacheOverlay="false" class="OverlayTrigger" style="display:none"></a>
+					</div>			
+				</div>
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id='taigachat_box' class='taigachat_thumbzoom' style='height: 150px'><ol></ol></div>			
+		
+		
+			
+
+		
+		
+	</div>
+</div>
+
+<script type="text/javascript">
+(function(taigachat, $, XenForo, undefined){
+	taigachat.fake = false;
+	taigachat.autorefresh = false;
+	taigachat.limit = parseInt("25", 10) || 50;
+	taigachat.room = parseInt("1", 10) || 1;
+	taigachat.speed = false;
+	taigachat.activity_newtab = true;
+	taigachat.newtab = true;
+	taigachat.ignorehide = false;
+	taigachat.speedurl = "data/taigachat/messagesmini.html";
+	taigachat.url = "taigachat/list.json";
+	taigachat.url_activity = "taigachat/activity.json";
+	taigachat.url_post = "taigachat/post.json";
+	taigachat.url_savecolor = "taigachat/save-color.json";
+	taigachat.fastactivity = false;
+	taigachat.sidebar = true;
+	taigachat.timedisplay = "Time";
+	taigachat.canModify = false;
+	taigachat.canModifyAll = false;
+	taigachat.canBan = false;
+	taigachat.showAlert = true;
+	taigachat.focusedRefreshTime = parseInt("2", 10) || 10;
+	taigachat.unfocusedRefreshTime = parseInt("5", 10) || 10;
+	taigachat.tabUnfocusedRefreshTime = parseInt("10", 10) || 10;
+	
+}(window.taigachat = window.taigachat || {}, jQuery, XenForo));
+
+jQuery.extend(XenForo.phrases,
+{
+	dark_ignored: "*Игнор*",
+	dark_banned_successfully: "Пользователь успешно забанен .",
+	dark_unbanned_successfully: "Пользователь успешно разбанен .",
+	dark_new_chat_message: "** Новое сообщение в чате! **"
+});
+</script>
+	    
+
+
+
+
+
+
+<div class="VietXfAdvStats sectionMain" data-bulkUpdateUrl="advstats/bulk-update">
+	<h3>
+		<div class="VietXfAdvStats_Controls">
+			
+				<select class="VietXfAdvStats_ItemLimit Tooltip" title="Элемент Предел">
+					
+						<option value="5"  selected="selected">5</option>
+					
+						<option value="10" >10</option>
+					
+						<option value="20" >20</option>
+					
+				</select>
+			
+			
+			
+				<input type="hidden" value="60" class="VietXfAdvStats_updateInterval" />
+			
+		</div>
+		
+		
+			<div class="VietXfAdvStats_Header">Продвинутая Статистика Форума</div>
+		
+	</h3>
+	
+	<div id="Block1st">
+		<ul class="tabs noLinks">
+			<li class="active">
+				<select class="VietXfAdvStats_SectionTrigger" data-panes="#Block1stPanes > li">
+					
+						<option value="users-new">Новые участники</option>
+					
+						<option value="users-top-posters">Самый плодотворный</option>
+					
+						<option value="users-top-trophy-points">Лучшие по баллам</option>
+					
+						<option value="users-top-liked">Самый понравившиеся </option>
+					
+				</select>
+			</li>
+		</ul>
+		<ul id="Block1stPanes">
+			
+				
+	<li id="users-new" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block1stContent">
+		
+
+<div class="this-is-a-wrapper-to-activate-our-js-correctly">
+	<div class="VietXfAdvStats_Section VietXfAdvStats_Users" data-typeMajor="users" data-type="users_new" data-requestedAction="users-new" data-requestedParams="W10=">
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_User">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_UserName">
+		<a href="members/saneklla.3019/" class="username" dir="auto">saneklla</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_UserRegisterDate">
+		Сегодня
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_User">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_UserName">
+		<a href="members/samko.3018/" class="username" dir="auto">samko</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_UserRegisterDate">
+		Вчера
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_User">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_UserName">
+		<a href="members/l1mit.3017/" class="username" dir="auto">l1mit</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_UserRegisterDate">
+		Вчера
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_User">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_UserName">
+		<a href="members/wandererod.3016/" class="username" dir="auto">WandererOd</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_UserRegisterDate">
+		Вчера
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_User">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_UserName">
+		<a href="members/ssss.3015/" class="username" dir="auto">ssss</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_UserRegisterDate">
+		Вчера
+	</div>
+</div>
+		
+	</div>
+</div>
+	</li>
+
+			
+				
+	<li id="users-top-posters" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block1stContent" data-loadUrl="advstats/users-top-posters">
+		Загрузка...
+		<noscript><a href="advstats/users-top-posters'}">Посмотреть</a></noscript>
+	</li>
+
+			
+				
+	<li id="users-top-trophy-points" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block1stContent" data-loadUrl="advstats/users-top-trophy-points">
+		Загрузка...
+		<noscript><a href="advstats/users-top-trophy-points'}">Посмотреть</a></noscript>
+	</li>
+
+			
+				
+	<li id="users-top-liked" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block1stContent" data-loadUrl="advstats/users-top-liked">
+		Загрузка...
+		<noscript><a href="advstats/users-top-liked'}">Посмотреть</a></noscript>
+	</li>
+
+			
+		</ul>
+	</div>
+	<div id="Block2nd">
+		<ul class="tabs VietXfAdvStats_SectionTrigger" data-panes="#Block2ndPanes > li">
+			
+				<li><a href="/#threads-recent">Последние сообщения</a></li>
+			
+				<li><a href="/#threads-latest">Последние темы</a></li>
+			
+				<li><a href="/#threads-hot">Популярные темы</a></li>
+			
+		</ul>
+		<ul id="Block2ndPanes">
+			
+				
+	<li id="threads-recent" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block2ndContent">
+		
+
+<div class="this-is-a-wrapper-to-activate-our-js-correctly">
+	<div class="VietXfAdvStats_Section VietXfAdvStats_Threads" data-typeMajor="threads" data-type="threads_recent" data-requestedAction="threads-recent" data-requestedParams="eyJub2RlX2lkcyI6IjI0MiwyNTUsMjU3LDksMTAsMTEsMzYzLDIxOSwyMjEsMjI3LDIyMiwyMjYsMjM3LDIyNCwyMjksMTQsMTUsMTcsMTAxLDE3MCwyMTcsMTgsMjk4LDYyLDYzLDY0LDY2LDY3LDczLDc2LDk5LDEwMCwyMDIsMjE4LDIzMiw2OCw3NCw3NSw5Nyw5OCwyMDMsMjMzLDY5LDEwNCw3MCwxMDYsNzcsMTA1LDg0LDg1LDg2LDEwMiwxMDMsMjA0LDIzNCw5Miw5Myw5NCw5NSw5NiwyMDUsMTY4LDIyOCwxOSwxMjQsMTI1LDEyNiwxNjksMzY1LDM2NiwzNjcsMzcwLDM3MSwzNzIsMzczLDM2OCwzNjksMjAsMjY3LDIxLDI3MSwxMTYsMTE3LDExOCwxMjAsMTIzLDI2OCwxMjgsMTU3LDE1OCwxNjAsMjY5LDI3MiwyNzMsMjc0LDIzOSwzMDEsNTksMTczLDI3MCIsImhhc2giOiI3NzFlMWMzZGRmZmIyNDdlOTViNDQ5NmVlMTI3MTBlZiJ9">
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_Thread">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_ThreadTitle">
+		
+		
+		<img src="styles/default/xenforo/post_old.gif">
+		
+		
+			
+				<span class="prefix prefixGreen">БК2</span> 
+			
+		
+		<a href="threads/dvizhok-meydan-az-old-bk-com.2175/" class="" 
+			data-previewUrl="">
+			
+				Движок - meydan.az ( old-bk.com )
+			
+		</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_ThreadPoster">
+		<a href="members/grimm94.1375/" class="username" dir="auto">grimm94</a>
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_Thread">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_ThreadTitle">
+		
+		
+		<img src="styles/default/xenforo/post_old.gif">
+		
+		
+		<a href="threads/skript-combatz-ru-za-12-06-2015.2422/" class="" 
+			data-previewUrl="">
+			
+				Скрипт COMBATZ.RU за 12.06.2015
+			
+		</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_ThreadPoster">
+		<a href="members/enigmus.2789/" class="username" dir="auto">enigmus</a>
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_Thread">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_ThreadTitle">
+		
+		
+		<img src="styles/default/xenforo/post_old.gif">
+		
+		
+		<a href="threads/unikalnaja-onlajn-igra-dgame-ru-zhanra-rpg.1040/" class="" 
+			data-previewUrl="">
+			
+				Уникальная онлайн игра dgame.ru жанра RPG
+			
+		</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_ThreadPoster">
+		<a href="members/vukfe.1386/" class="username" dir="auto">Вукфе</a>
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_Thread">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_ThreadTitle">
+		
+		
+		<img src="styles/default/xenforo/post_old.gif">
+		
+		
+		<a href="threads/vozmezdija-gery.2885/" class="" 
+			data-previewUrl="">
+			
+				Возмездия Геры
+			
+		</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_ThreadPoster">
+		<a href="members/grimm94.1375/" class="username" dir="auto">grimm94</a>
+	</div>
+</div>
+		
+			<div class="VietXfAdvStats_SectionItem VietXfAdvStats_Thread">
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemTitle VietXfAdvStats_ThreadTitle">
+		
+		
+		<img src="styles/default/xenforo/post_old.gif">
+		
+		
+		<a href="threads/skript-igry-fuckn-fly.2877/" class="" 
+			data-previewUrl="">
+			
+				Скрипт игры Fuck'n Fly
+			
+		</a>
+	</div>
+	<div class="VietXfAdvStats_SectionItemBlock VietXfAdvStats_SectionItemInfo VietXfAdvStats_ThreadPoster">
+		<a href="members/impaler.2467/" class="username" dir="auto">Impaler</a>
+	</div>
+</div>
+		
+	</div>
+</div>
+	</li>
+
+			
+				
+	<li id="threads-latest" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block2ndContent" data-loadUrl="advstats/threads-latest?node_ids=242%2C255%2C257%2C9%2C10%2C11%2C363%2C219%2C221%2C227%2C222%2C226%2C237%2C224%2C229%2C14%2C15%2C17%2C101%2C170%2C217%2C18%2C298%2C62%2C63%2C64%2C66%2C67%2C73%2C76%2C99%2C100%2C202%2C218%2C232%2C68%2C74%2C75%2C97%2C98%2C203%2C233%2C69%2C104%2C70%2C106%2C77%2C105%2C84%2C85%2C86%2C102%2C103%2C204%2C234%2C92%2C93%2C94%2C95%2C96%2C205%2C168%2C228%2C19%2C124%2C125%2C126%2C169%2C365%2C366%2C367%2C370%2C371%2C372%2C373%2C368%2C369%2C20%2C267%2C21%2C271%2C116%2C117%2C118%2C120%2C123%2C268%2C128%2C157%2C158%2C160%2C269%2C272%2C273%2C274%2C239%2C301%2C59%2C173%2C270&amp;hash=771e1c3ddffb247e95b4496ee12710ef">
+		Загрузка...
+		<noscript><a href="advstats/threads-latest?node_ids=242%2C255%2C257%2C9%2C10%2C11%2C363%2C219%2C221%2C227%2C222%2C226%2C237%2C224%2C229%2C14%2C15%2C17%2C101%2C170%2C217%2C18%2C298%2C62%2C63%2C64%2C66%2C67%2C73%2C76%2C99%2C100%2C202%2C218%2C232%2C68%2C74%2C75%2C97%2C98%2C203%2C233%2C69%2C104%2C70%2C106%2C77%2C105%2C84%2C85%2C86%2C102%2C103%2C204%2C234%2C92%2C93%2C94%2C95%2C96%2C205%2C168%2C228%2C19%2C124%2C125%2C126%2C169%2C365%2C366%2C367%2C370%2C371%2C372%2C373%2C368%2C369%2C20%2C267%2C21%2C271%2C116%2C117%2C118%2C120%2C123%2C268%2C128%2C157%2C158%2C160%2C269%2C272%2C273%2C274%2C239%2C301%2C59%2C173%2C270&amp;hash=771e1c3ddffb247e95b4496ee12710ef'}">Посмотреть</a></noscript>
+	</li>
+
+			
+				
+	<li id="threads-hot" class="VietXfAdvStats_BlockContent VietXfAdvStats_Block2ndContent" data-loadUrl="advstats/threads-hot?node_ids=242%2C255%2C257%2C9%2C10%2C11%2C363%2C219%2C221%2C227%2C222%2C226%2C237%2C224%2C229%2C14%2C15%2C17%2C101%2C170%2C217%2C18%2C298%2C62%2C63%2C64%2C66%2C67%2C73%2C76%2C99%2C100%2C202%2C218%2C232%2C68%2C74%2C75%2C97%2C98%2C203%2C233%2C69%2C104%2C70%2C106%2C77%2C105%2C84%2C85%2C86%2C102%2C103%2C204%2C234%2C92%2C93%2C94%2C95%2C96%2C205%2C168%2C228%2C19%2C124%2C125%2C126%2C169%2C365%2C366%2C367%2C370%2C371%2C372%2C373%2C368%2C369%2C20%2C267%2C21%2C271%2C116%2C117%2C118%2C120%2C123%2C268%2C128%2C157%2C158%2C160%2C269%2C272%2C273%2C274%2C239%2C301%2C59%2C173%2C270&amp;hash=771e1c3ddffb247e95b4496ee12710ef">
+		Загрузка...
+		<noscript><a href="advstats/threads-hot?node_ids=242%2C255%2C257%2C9%2C10%2C11%2C363%2C219%2C221%2C227%2C222%2C226%2C237%2C224%2C229%2C14%2C15%2C17%2C101%2C170%2C217%2C18%2C298%2C62%2C63%2C64%2C66%2C67%2C73%2C76%2C99%2C100%2C202%2C218%2C232%2C68%2C74%2C75%2C97%2C98%2C203%2C233%2C69%2C104%2C70%2C106%2C77%2C105%2C84%2C85%2C86%2C102%2C103%2C204%2C234%2C92%2C93%2C94%2C95%2C96%2C205%2C168%2C228%2C19%2C124%2C125%2C126%2C169%2C365%2C366%2C367%2C370%2C371%2C372%2C373%2C368%2C369%2C20%2C267%2C21%2C271%2C116%2C117%2C118%2C120%2C123%2C268%2C128%2C157%2C158%2C160%2C269%2C272%2C273%2C274%2C239%2C301%2C59%2C173%2C270&amp;hash=771e1c3ddffb247e95b4496ee12710ef'}">Посмотреть</a></noscript>
+	</li>
+
+			
+		</ul>
+	</div>
+	<div style="clear: both; height: 0px;">&nbsp;</div>
+</div>
+
+<div id="PreviewTooltip">
+	<span class="arrow"><span></span></span>
+	
+	<div class="section">
+		<div class="primaryContent previewContent">
+			<span class="PreviewContents">Загрузка...</span>
+		</div>
+	</div>
+</div>
+	
+
+	
+	
+
+
+
+	<ol class="nodeList sectionMain" id="forums">
+	
+		
+
+
+<li class="node grid_full category level_1 node_242" id="nash-forum.242">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#nash-forum.242">Наш форум</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_255">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/novosti-foruma.255/" data-description="#nodeDescription-255">Новости форума</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>8</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>170</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21562/" title="Проводится набор в Модераторы!">Проводится набор в Модераторы!</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/cro.1/" class="username" dir="auto">Cro</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="1 дек 2015 в 21:24">1 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/novosti-foruma.255/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_257">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/mirovye-it-novosti.257/" data-description="#nodeDescription-257">Мировые IT новости</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>66</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>71</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/20275/" title="Интернет-аукцион «Молоток.ру» закрывается">Интернет-аукцион «Молоток.ру» закрывается</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/higashi.445/" class="username" dir="auto">higashi</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="16 сен 2015 в 17:02">16 сен 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/mirovye-it-novosti.257/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_9" id="programmirovanie.9">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#programmirovanie.9">Программирование</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_10">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/veb-programmirovanie.10/" data-description="#nodeDescription-10">Веб-программирование</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>48</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>259</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21679/" title="Open Server">Open Server</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/postscriptum.2932/" class="username" dir="auto">PostScriptum</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="4 дек 2015 в 20:52">4 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/veb-programmirovanie.10/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_11">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/dizajn.11/" data-description="#nodeDescription-11">Дизайн</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>70</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>202</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21085/" title="Поможите!!!">Поможите!!!</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/dg-nc.2764/" class="username" dir="auto">DG NC</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="1 ноя 2015 в 19:49">1 ноя 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/dizajn.11/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_left forum level_2  node_363">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/seo.363/" data-description="#nodeDescription-363">SEO</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>1</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>20</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21595/" title="Услуги SEO">Услуги SEO</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/vargus.2177/" class="username" dir="auto">VarguS</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="2 дек 2015 в 01:30">2 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/seo.363/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_219">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/administratirovanija-serverov.219/" data-description="#nodeDescription-219">Администратирования Серверов</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>41</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>134</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/administratirovanija-serverov.219/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 7</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>Администратирования Серверов</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_221">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/debian.221/" class="menuRow">Debian</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_227">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/centos.227/" class="menuRow">CentOS</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_222">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/fedora.222/" class="menuRow">Fedora</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_226">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/ubuntu.226/" class="menuRow">Ubuntu</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_237">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/mint.237/" class="menuRow">Mint</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_224">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/windows-server-2003-2012.224/" class="menuRow">Windows Server(2003-2012)</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_229">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/windows-desktop-xp-8.229/" class="menuRow">Windows Desktop (XP-8)</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/20757/" title="Локальная машина в сети.">Локальная машина в сети.</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/insallah.644/" class="username" dir="auto">Insallah</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="14 окт 2015 в 00:31">14 окт 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/administratirovanija-serverov.219/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_14" id="skripty.14">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#skripty.14">Скрипты</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_15">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/relizy-poisk.15/" data-description="#nodeDescription-15">Релизы\поиск</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>27</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>92</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21637/" title="Бот для oldbk.com">Бот для oldbk.com</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/eexyy.2750/" class="username" dir="auto">eexyy</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="3 дек 2015 в 01:48">3 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/relizy-poisk.15/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_17">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/cms-portaly-forumy.17/" data-description="#nodeDescription-17">CMS\Порталы\Форумы</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>49</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>155</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/cms-portaly-forumy.17/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 3</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>CMS\Порталы\Форумы</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_101">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/poisk.101/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_170">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/socialnye-seti.170/" class="menuRow">Социальные сети</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_217">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/chat.217/" class="menuRow">Чат</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21568/" title="Какой из бесплатных CMS лучше и быстрее + SEO ? и почему !">Какой из бесплатных CMS лучше и быстрее + SEO ? и почему !</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/vargus.2177/" class="username" dir="auto">VarguS</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="2 дек 2015 в 00:33">2 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/cms-portaly-forumy.17/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_left forum level_2  node_18">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/igrovye-dvizhki.18/" data-description="#nodeDescription-18">Игровые движки</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>563</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>7.402</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/igrovye-dvizhki.18/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 41</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>Игровые движки</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_298">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/mmorpg-i-klientskie-igry.298/" class="menuRow">MMORPG и Клиентские игры</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_62">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/razdel-dlja-novichkov.62/" class="menuRow">Раздел для новичков</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_63">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/vashi-proekty.63/" class="menuRow">Ваши проекты</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_64">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/obzory-igrovyx-dvizhkov.64/" class="menuRow">Обзоры игровых движков</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_66">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/rekomenduemye-dvizhki.66/" class="menuRow">Рекомендуемые движки</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_67">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/bk-bojcovskij-klub.67/" class="menuRow">БК - ( Бойцовский Клуб )</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_73">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/mody-fix-dopolnenija-k-bk.73/" class="menuRow">Моды, Fix, Дополнения к БК</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_76">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/isxodniki-igr.76/" class="menuRow">Исходники игр</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_99">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/poisk.99/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_100">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/proekty-na-dannoj-igre.100/" class="menuRow">Проекты на данной игре</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_202">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/uslugi-pomosch-bk.202/" class="menuRow">Услуги / Помощь [БК]</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_218">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/pomojka.218/" class="menuRow">Помойка</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_232">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/chasto-zadavaemye-voprosy-po-bk.232/" class="menuRow">Часто задаваемые вопросы по БК!</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_68">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/iv-instinkty-voina.68/" class="menuRow">ИВ ( Инстинкты Воина )</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_74">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/isxodniki-igr.74/" class="menuRow">Исходники игр</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_75">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/mody-fix-dopolnenija-k-iv.75/" class="menuRow">Моды, Fix, Дополнения к ИВ</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_97">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/poisk.97/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_98">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/proekty-na-dannoj-igre.98/" class="menuRow">Проекты на данной игре</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_203">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/uslugi-pomosch-iv.203/" class="menuRow">Услуги / Помощь [ИВ]</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_233">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/chasto-zadavaemye-voprosy-po-iv.233/" class="menuRow">Часто задаваемые вопросы по ИВ!</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_69">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/zarubezhnye-dvizhki.69/" class="menuRow">Зарубежные  ( Движки )</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_104">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/poisk.104/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_70">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/strategii.70/" class="menuRow">Стратегии</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_106">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/poisk.106/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_77">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/biblioteka-dvizhkov-onlajn-igr.77/" class="menuRow">Библиотека движков &quot;Онлайн игр.&quot;</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_105">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/poisk.105/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_84">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/neverlands.84/" class="menuRow">NeverLands</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_85">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/isxodniki-igr.85/" class="menuRow">Исходники игр</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_86">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/mody-fix-dopolnenija-k-nl.86/" class="menuRow">Моды, Fix, Дополнения к NL</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_102">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/poisk.102/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_103">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/proekty-na-dannoj-igre.103/" class="menuRow">Проекты на данной игре</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_204">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/uslugi-pomosch-nl.204/" class="menuRow">Услуги / Помощь [NL]</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_234">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/chasto-zadevaemyj-voprosy-po-nl.234/" class="menuRow">Часто задеваемый вопросы по NL!</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_92">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/alone-islands.92/" class="menuRow">Alone Islands</a></h4>
+	</div>
+	
+		<ol>
+			
+				<li class="node forum level-n node_93">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/isxodniki-igr.93/" class="menuRow">Исходники игр</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_94">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/proekty-na-dannoj-igre.94/" class="menuRow">Проекты на данной игре</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_95">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/poisk.95/" class="menuRow">Поиск</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_96">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/mody-fix-dopolnenija.96/" class="menuRow">Моды, Fix, Дополнения</a></h4>
+	</div>
+	
+</li>
+			
+				<li class="node forum level-n node_205">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/uslugi-pomosch-alone.205/" class="menuRow">Услуги / Помощь [Alone]</a></h4>
+	</div>
+	
+</li>
+			
+		</ol>
+	
+</li>
+							
+								<li class="node forum level-n node_168">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/skripty-wap-onlajn-igr.168/" class="menuRow">Скрипты WAP онлайн игр</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_228">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/poisk-v-komandu.228/" class="menuRow">Поиск в команду</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21792/" title="Движок - meydan.az ( old-bk.com )">Движок - meydan.az ( old-bk.com )</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/grimm94.1375/" class="username" dir="auto">grimm94</a>,</span>
+					<abbr class="DateTime muted lastThreadDate" data-latest="Последнее: " data-time="1450259829" data-diff="2045" data-datestring="16 дек 2015" data-timestring="13:57">16 дек 2015 в 13:57</abbr>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/igrovye-dvizhki.18/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_19">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/ripy.19/" data-description="#nodeDescription-19">Рипы</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>44</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>90</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21607/" title="W2W Городской портал 6.2 Nulled (чистый) на DLE 10.2">W2W Городской портал 6.2 Nulled (чистый) на DLE 10.2</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/higashi.445/" class="username" dir="auto">higashi</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="2 дек 2015 в 07:50">2 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/ripy.19/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_left forum level_2  node_124">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/xosting.124/" data-description="#nodeDescription-124">Хостинг</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>81</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>230</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/xosting.124/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 2</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>Хостинг</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_125">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/platnyj-xosting-registracija-domenov.125/" class="menuRow">Платный хостинг, регистрация доменов</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_126">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/besplatnyj-xosting.126/" class="menuRow">Бесплатный хостинг</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21769/" title="Дешевый хостинг + месяц тест!">Дешевый хостинг + месяц тест!</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/eexyy.2750/" class="username" dir="auto">eexyy</a>,</span>
+					<abbr class="DateTime muted lastThreadDate" data-latest="Последнее: " data-time="1450023983" data-diff="237891" data-datestring="13 дек 2015" data-timestring="20:26">13 дек 2015 в 20:26</abbr>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/xosting.124/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_169">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/skripty-raznye.169/" data-description="#nodeDescription-169">Скрипты &quot;Разные&quot;</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>82</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>298</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21767/" title="Движок рейтинга серверов top-war">Движок рейтинга серверов top-war</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/cro.1/" class="username" dir="auto">Cro</a>,</span>
+					<abbr class="DateTime muted lastThreadDate" data-latest="Последнее: " data-time="1450001815" data-diff="260059" data-datestring="13 дек 2015" data-timestring="14:16">13 дек 2015 в 14:16</abbr>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/skripty-raznye.169/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_365" id="cms.365">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#cms.365">CMS</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_366">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/radiocms.366/" data-description="#nodeDescription-366">RadioCMS</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>1</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>2</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/radiocms.366/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 1</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>RadioCMS</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_367">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/relizy.367/" class="menuRow">Релизы</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/18880/" title="RadioCMS">RadioCMS</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/higashi.445/" class="username" dir="auto">higashi</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="23 июл 2015 в 14:52">23 июл 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/radiocms.366/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_370">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent ">
+
+		<span class="nodeIcon" title=""></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/drupal.370/" data-description="#nodeDescription-370">Drupal</a>
+</h3>
+
+			
+				<blockquote class="nodeDescription nodeDescriptionTooltip baseHtml" id="nodeDescription-370">Drupal</blockquote>
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>0</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>0</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="noMessages muted">(Нет сообщений)</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/drupal.370/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_left forum level_2  node_371">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent ">
+
+		<span class="nodeIcon" title=""></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/joomla.371/" data-description="#nodeDescription-371">Joomla</a>
+</h3>
+
+			
+				<blockquote class="nodeDescription nodeDescriptionTooltip baseHtml" id="nodeDescription-371">Joomla!</blockquote>
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>0</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>0</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="noMessages muted">(Нет сообщений)</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/joomla.371/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_372">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/wordpress.372/" data-description="#nodeDescription-372">WordPress</a>
+</h3>
+
+			
+				<blockquote class="nodeDescription nodeDescriptionTooltip baseHtml" id="nodeDescription-372">WordPress</blockquote>
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>1</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>2</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21592/" title="WordPress - Версия 3.8-ru_RU">WordPress - Версия 3.8-ru_RU</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/vargus.2177/" class="username" dir="auto">VarguS</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="2 дек 2015 в 01:24">2 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/wordpress.372/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_373" id="internet-magaziny.373">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#internet-magaziny.373">Интернет Магазины</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_368" id="frejmvorki.368">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#frejmvorki.368">Фреймворки</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_369">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/codeigniter.369/" data-description="#nodeDescription-369">CodeIgniter</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>3</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>10</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21574/" title="Моя небольшая на работка.">Моя небольшая на работка.</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/vargus.2177/" class="username" dir="auto">VarguS</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="2 дек 2015 в 00:53">2 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/codeigniter.369/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_20" id="forumnye-dvizhki.20">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#forumnye-dvizhki.20">Форумные движки</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_267">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/xenforo.267/" data-description="#nodeDescription-267">XenForo</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>7</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>11</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/xenforo.267/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 7</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>XenForo</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_21">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/relizy-xenforo.21/" class="menuRow">Релизы XenForo</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_271">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/plaginy-dlja-xenforo.271/" class="menuRow">Плагины для XenForo</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_116">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/stili-dlja-xenforo.116/" class="menuRow">Стили для XenForo</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_117">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/modifikacii-shablonov-i-fajlov.117/" class="menuRow">Модификации шаблонов и файлов</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_118">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/dopolnitelnye-jazyki.118/" class="menuRow">Дополнительные языки</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_120">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/texnicheskaja-podderzhka.120/" class="menuRow">Техническая поддержка</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_123">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/zaprosy-poisk.123/" class="menuRow">Запросы/Поиск</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/20524/" title="XenForo 1.4.4 Nulled + Руссификатор.">XenForo 1.4.4 Nulled + Руссификатор.</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/vukfe.1386/" class="username" dir="auto">Вукфе</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="30 сен 2015 в 08:56">30 сен 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/xenforo.267/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_268">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/invision-power-board.268/" data-description="#nodeDescription-268">Invision Power Board</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>6</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>9</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/invision-power-board.268/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 4</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>Invision Power Board</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_128">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/relizy-ipb.128/" class="menuRow">Релизы IPB</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_157">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/modifikacii-mody-dlja-ipb.157/" class="menuRow">Модификации (моды) для IPB</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_158">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/shablony-dlja-ipb.158/" class="menuRow">Шаблоны для IPB</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_160">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/raznoe-dlja-ipb.160/" class="menuRow">Разное для IPB</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21593/" title="IP.Board 3.4.6 RUS Nulled">IP.Board 3.4.6 RUS Nulled</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/vargus.2177/" class="username" dir="auto">VarguS</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="2 дек 2015 в 01:25">2 дек 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/invision-power-board.268/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_left forum level_2  node_269">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/vbulletin.269/" data-description="#nodeDescription-269">vBulletin</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>2</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>2</dd></dl>
+				
+					<div class="Popup subForumsPopup">
+						<a href="forums/vbulletin.269/" rel="Menu" class="cloaked" data-closemenu="true"><span class="dt">Подразделы:</span> 3</a>
+						
+						<div class="Menu JsOnly subForumsMenu">
+							<div class="primaryContent menuHeader">
+								<h3>vBulletin</h3>
+								<div class="muted">Подразделы</div>
+							</div>
+							<ol class="secondaryContent blockLinksList">
+							
+								<li class="node forum level-n node_272">
+	<div class="unread">
+
+		<h4 class="nodeTitle"><a href="forums/instrukcii-i-modifikacii-dlja-vbulletin.272/" class="menuRow">Инструкции и модификации для vBulletin</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_273">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/xaki-dlja-vbulletin.273/" class="menuRow">Хаки для vBulletin</a></h4>
+	</div>
+	
+</li>
+							
+								<li class="node forum level-n node_274">
+	<div >
+
+		<h4 class="nodeTitle"><a href="forums/shablony-dlja-vbulletin.274/" class="menuRow">Шаблоны для vBulletin</a></h4>
+	</div>
+	
+</li>
+							
+							</ol>
+						</div>
+					</div>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/6278/" title="Услуги по vB">Услуги по vB</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/explo1t.470/" class="username" dir="auto">ExpLo1T</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="26 авг 2014 в 01:10">26 авг 2014</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/vbulletin.269/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+
+
+<li class="node grid_full category level_1 node_239" id="raznoe.239">
+
+	<div class="nodeInfo categoryNodeInfo categoryStrip">
+	
+		<div class="categoryText">
+			<h3 class="nodeTitle"><a href=".#raznoe.239">Разное</a>
+</h3>
+			
+		</div>
+		
+	</div>
+	
+			
+		<ol class="nodeList">
+			
+
+
+<li class="node grid_column grid_left forum level_2  node_301">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/chjornyj-spisok-kidaly.301/" data-description="#nodeDescription-301">Чёрный Список (Кидалы)</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>6</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>36</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/20508/" title="Kidala s imenim Pavel">Kidala s imenim Pavel</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/hiskoy.2485/" class="username" dir="auto">Hiskoy</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="28 сен 2015 в 17:46">28 сен 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/chjornyj-spisok-kidaly.301/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_right forum level_2  node_59">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/boltalka.59/" data-description="#nodeDescription-59">Болталка</a>
+</h3>
+
+			
+				<blockquote class="nodeDescription nodeDescriptionTooltip baseHtml" id="nodeDescription-59">Общение на свободные темы, обсуждения, дискуссии, споры.</blockquote>
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>120</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>1.079</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/21785/" title="Открытие Old Dwar!">Открытие Old Dwar!</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/xrest.94/" class="username" dir="auto">XREST</a>,</span>
+					<abbr class="DateTime muted lastThreadDate" data-latest="Последнее: " data-time="1450189437" data-diff="72437" data-datestring="15 дек 2015" data-timestring="18:23">15 дек 2015 в 18:23</abbr>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/boltalka.59/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+
+
+<li class="node grid_column grid_left forum level_2  node_173">
+
+	
+
+	<div class="nodeInfo forumNodeInfo primaryContent unread">
+
+		<span class="nodeIcon" title="Непрочитанные сообщения"></span>
+
+		<div class="nodeText">
+			<h3 class="nodeTitle"><a href="forums/uslugi.173/" data-description="#nodeDescription-173">Услуги</a>
+</h3>
+
+			
+
+			<div class="nodeStats pairsInline">
+				<dl><dt>Темы:</dt> <dd>107</dd></dl>
+				<dl><dt>Сообщения:</dt> <dd>314</dd></dl>
+				
+			</div>
+			
+			
+		</div>
+
+		
+		
+		
+
+		<div class="nodeLastPost secondaryContent">
+			
+				<span class="lastThreadTitle"><span>Последнее:</span> <a href="posts/20450/" title="Vk.Com SoftWare by Makalister [300р]">Vk.Com SoftWare by Makalister [300р]</a></span>
+				<span class="lastThreadMeta">
+					<span class="lastThreadUser"><a href="members/grizzley.1998/" class="username" dir="auto">GrizzLey</a>,</span>
+					<span class="DateTime muted lastThreadDate" data-latest="Последнее: " title="23 сен 2015 в 16:15">23 сен 2015</span>
+				</span>
+			
+		</div>
+
+		<div class="nodeControls">
+			<a href="forums/uslugi.173/index.rss" class="tinyIcon feedIcon" title="RSS">RSS</a>
+		</div>
+		
+	</div>
+
+	
+
+</li>
+		</ol>
+	
+	
+	<span class="tlc"></span>
+	<span class="trc"></span>
+	<span class="blc"></span>
+	<span class="brc"></span>
+</li>
+	
+	</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+						
+						
+						
+						
+							<!-- login form, to be moved to the upper drop-down -->
+							
+
+
+
+
+
+
+
+<form action="login/login" method="post" class="xenForm " id="login" style="display:none">
+
+	
+
+	<div class="ctrlWrapper">
+		<dl class="ctrlUnit">
+			<dt><label for="LoginControl">Ваше имя или e-mail:</label></dt>
+			<dd><input type="text" name="login" id="LoginControl" class="textCtrl" tabindex="101" /></dd>
+		</dl>
+	
+	
+		<dl class="ctrlUnit">
+			<dt>
+				<label for="ctrl_password">У Вас уже есть учётная запись?</label>
+			</dt>
+			<dd>
+				<ul>
+					<li><label for="ctrl_not_registered"><input type="radio" name="register" value="1" id="ctrl_not_registered" tabindex="105" />
+						Нет, зарегистрироваться сейчас.</label></li>
+					<li><label for="ctrl_registered"><input type="radio" name="register" value="0" id="ctrl_registered" tabindex="105" checked="checked" class="Disabler" />
+						Да, мой пароль:</label></li>
+					<li id="ctrl_registered_Disabler">
+						<input type="password" name="password" class="textCtrl" id="ctrl_password" tabindex="102" />
+						<div class="lostPassword"><a href="lost-password/" class="OverlayTrigger OverlayCloser" tabindex="106">Забыли пароль?</a></div>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		
+		<dl class="ctrlUnit submitUnit">
+			<dt></dt>
+			<dd>
+				<input type="submit" class="button primary" value="Вход" tabindex="104" data-loginPhrase="Вход" data-signupPhrase="Регистрация" />
+				<label for="ctrl_remember" class="rememberPassword"><input type="checkbox" name="remember" value="1" checked="checked" id="ctrl_remember" tabindex="104" /> Запомнить меня</label>
+			</dd>
+		</dl>
+	</div>
+
+	<input type="hidden" name="cookie_check" value="1" />
+	<input type="hidden" name="redirect" value="/" />
+	<input type="hidden" name="_xfToken" value="" />
+
+</form>
+						
+						
+					</div>
+				</div>
+				
+				<!-- sidebar -->
+				<aside>
+					<div class="sidebar">
+						
+						
+
+						
+
+<div class="section loginButton">		
+	<div class="secondaryContent">
+		<label for="LoginControl" id="SignupButton"><a href="login/" class="inner">Регистрация</a></label>
+	</div>
+</div>
+
+
+
+
+						
+
+<div class="section">
+  <div class="secondaryContent statsList">
+    <h3>Помоги MOPESOFT.RU</h3>
+    <div class="pairsJustified">
+      <div class="csnXF_donationData csnXF_donationData_sidebarBlock">
+        <div class="csnXF_donationData_announcement">
+          Вы можете пожертвовать небольшую сумму денег, которая поможет с оплатой доменного имени и нашего сервера.
+        </div>
+        <form method="post" action="https://money.yandex.ru/quickpay/confirm.xml">
+          
+            <input type="hidden" name="referer" value="https://mopesoft.ru" />
+          
+          <input type="hidden" name="receiver" value="410011808684323" />
+          
+            <input type="hidden" name="formcomment" value="Software And Programming Forum" />
+          
+          <input type="hidden" name="short-dest" value="Пожертвование" />
+          <input type="hidden" name="quickpay-form" value="donate" />
+          <input type="hidden" name="targets" value="Пожертвование на развитие проекта" />
+          <input type="hidden" name="writable-sum" value="true" />
+          <input type="hidden" name="need-fio" value="false" />
+          <input type="hidden" name="need-email" value="false" />
+          <input type="hidden" name="need-phone" value="false" />
+          <input type="hidden" name="need-address" value="false" />
+          <span class="csnXF_donationData_formBody">
+            <span class="csnXF_donationData_formText">
+              <input type="number" name="sum" maxlength="10" value="100" data-type="number" pattern="^[1-9]\d*$" class="textCtrl" placeholder="Введите сумму..." required="required" />
+              <span>
+                
+                  <i class="fa fa-rub fa-2x fa-fw"></i>
+                
+              </span>
+            </span>
+            <span class="csnXF_donationData_formRadio">
+              <label for="ctrlPaymentType_yaMoney">
+                <input type="radio" name="paymentType" value="PC" id="ctrlPaymentType_yaMoney" checked="checked" /> Яндекс.Деньги
+              </label>
+              <label for="ctrlPaymentType_bankCard">
+                <input type="radio" name="paymentType" value="AC" id="ctrlPaymentType_bankCard" /> Банковская карта
+              </label>
+            </span>
+            <span class="csnXF_donationData_formSubmit">
+              <input type="submit" name="submit-button" value="Помочь проекту" class="button primary" />
+            </span>
+          </span>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section">
+  <div class="secondaryContent">
+    <h3><i class="fa fa-share-alt fa-fw" style="padding-right:4px;"></i>Мы в социальных сетях</h3>
+    <ul class="soc">
+    
+    <li><a class="soc-vkontakte Tooltip" title="Вконтакте" href="https://vk.com/public64429101" target="_blank"></a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </ul>
+  </div>
+</div>
+
+
+
+	
+	
+	
+		
+			
+
+<!-- block: sidebar_online_staff -->
+
+<!-- end block: sidebar_online_staff -->
+
+
+<!-- block: sidebar_online_users -->
+<div class="section membersOnline userList">		
+	<div class="secondaryContent">
+		<h3><a href="online/" title="Показать всех пользователей, кто онлайн">Пользователи онлайн</a></h3>
+		
+		
+		
+			
+			
+			<ol class="listInline">
+				
+					
+						<li>
+						
+							<a href="members/samko.3018/" dir="auto"
+								class="username">samko</a>,
+						
+						</li>
+					
+				
+					
+						<li>
+						
+							<a href="members/cro.1/" dir="auto"
+								class="username">Cro</a>,
+						
+						</li>
+					
+				
+					
+						<li>
+						
+							<a href="members/vukfe.1386/" dir="auto"
+								class="username">Вукфе</a>,
+						
+						</li>
+					
+				
+					
+						<li>
+						
+							<a href="members/skat3r.461/" dir="auto"
+								class="username">skat3r</a>
+						
+						</li>
+					
+				
+				
+			</ol>
+		
+		
+		<div class="footnote">
+			Всего: 23 (пользователей: 4, гостей: 8, роботов: 11)
+		</div>
+	</div>
+</div>
+<!-- end block: sidebar_online_users --><!-- block: forum_list_who_visited -->
+<div class="section membersOnline userList">		
+	<div class="secondaryContent">
+		<h3>Members Online Recently</h3>
+
+		
+
+
+			
+	<ol class="listInline WhoHasVisitedBlock" itemscope itemtype="http://schema.org/Person">
+		
+			<li>
+				<a href="members/admin.220/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:09"><span class="style3">Admin</span></a>,
+			</li>
+		
+			<li>
+				<a href="members/popkorm.416/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:08">popkorm</a>,
+			</li>
+		
+			<li>
+				<a href="members/mika85.5/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:08">Mika85</a>,
+			</li>
+		
+			<li>
+				<a href="members/samko.3018/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:04">samko</a>,
+			</li>
+		
+			<li>
+				<a href="members/grimm94.1375/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 13:57">grimm94</a>,
+			</li>
+		
+			<li>
+				<a href="members/nazarei.46/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 13:56">Nazarei</a>,
+			</li>
+		
+			<li>
+				<a href="members/andkab.1148/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 13:55">andkab</a>,
+			</li>
+		
+			<li>
+				<a href="members/darknesss.443/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 13:45">darknesss</a>,
+			</li>
+		
+			<li>
+				<a href="members/vukfe.1386/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:18">Вукфе</a>,
+			</li>
+		
+			<li>
+				<a href="members/gerrok.345/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 13:22">Gerrok</a>,
+			</li>
+		
+			<li>
+				<a href="members/simplyv.2837/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 13:16">simplyV</a>,
+			</li>
+		
+			<li>
+				<a href="members/cester.2510/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 12:58">Cester</a>,
+			</li>
+		
+			<li>
+				<a href="members/saneklla.3019/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 12:37">saneklla</a>,
+			</li>
+		
+			<li>
+				<a href="members/cybervit.599/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 12:26">CyberVit</a>,
+			</li>
+		
+			<li>
+				<a href="members/enigmus.2789/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 12:16">enigmus</a>,
+			</li>
+		
+			<li>
+				<a href="members/troy.451/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 12:15">Troy</a>,
+			</li>
+		
+			<li>
+				<a href="members/zerorukin.2568/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 11:40">Zerorukin</a>,
+			</li>
+		
+			<li>
+				<a href="members/deathmaster.1657/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 11:16"><span class="style7">DeathmasteR</span></a>,
+			</li>
+		
+			<li>
+				<a href="members/eaglenix.243/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 11:02">eaglenix</a>,
+			</li>
+		
+			<li>
+				<a href="members/rusalc.912/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 10:47">rusalc</a>,
+			</li>
+		
+			<li>
+				<a href="members/petrush.222/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 09:55">petrush</a>,
+			</li>
+		
+			<li>
+				<a href="members/jamesharden.560/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 09:36">jamesharden</a>,
+			</li>
+		
+			<li>
+				<a href="members/ronii.1825/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 09:23">ronii</a>,
+			</li>
+		
+			<li>
+				<a href="members/nitka.2873/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 05:19">nitka</a>,
+			</li>
+		
+			<li>
+				<a href="members/maksimiljan.623/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 02:38">Максимильян</a>,
+			</li>
+		
+			<li>
+				<a href="members/l1mit.3017/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 01:56">l1mit</a>,
+			</li>
+		
+			<li>
+				<a href="members/cro.1/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 01:39"><span class="style3">Cro</span></a>,
+			</li>
+		
+			<li>
+				<a href="members/igori.2917/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 00:47">igori</a>,
+			</li>
+		
+			<li>
+				<a href="members/rapos.763/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 00:24">RAPOS</a>,
+			</li>
+		
+			<li>
+				<a href="members/kriskoldun.2186/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 00:12">kriskoldun</a>,
+			</li>
+		
+			<li>
+				<a href="members/rus_d.3006/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 23:06">RUS_D</a>,
+			</li>
+		
+			<li>
+				<a href="members/impaler.2467/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 22:57">Impaler</a>,
+			</li>
+		
+			<li>
+				<a href="members/skat3r.461/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:22">skat3r</a>,
+			</li>
+		
+			<li>
+				<a href="members/darel.42/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 22:00">Дарел</a>,
+			</li>
+		
+			<li>
+				<a href="members/emerkan.2690/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 19:32">Emerkan</a>,
+			</li>
+		
+			<li>
+				<a href="members/bosomi.721/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 19:08">bosomi</a>,
+			</li>
+		
+			<li>
+				<a href="members/xrest.94/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 18:38">XREST</a>,
+			</li>
+		
+			<li>
+				<a href="members/zakon.2686/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 18:34">Закон</a>,
+			</li>
+		
+			<li>
+				<a href="members/galat.3008/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 17:23">Galat</a>,
+			</li>
+		
+			<li>
+				<a href="members/vadosik.330/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 16:52">vadosik</a>
+			</li>
+		
+		
+			<div id="WhoVisitedHidden" style="display: none;">
+				
+					<li>
+						<a href="members/higashi.445/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 15:50">higashi</a>,
+					</li>
+				
+					<li>
+						<a href="members/borisbond19992.1698/" class="username Tooltip username" dir="auto" itemprop="name" title="Последняя активность в: 14:51">Borisbond19992</a>
+					</li>
+				
+			</div>
+			<li class="moreLink JsOnly">... <a href="#" data-target="#WhoVisitedHidden" class="ToggleTrigger" title="Показать всех посетителей"><strong>Показать / Скрыть список</strong></a></li>
+		
+	</ol>
+
+
+<div class="footnote">
+	Всего: 42 пользователей (за 24 часа)
+	<br />Рекорд посещаемости: 77 пользователей
+	
+		<br /><br /><span class="whoVisitedCacheMessage" style="font-size: 10px;">(Время обновления каждые 30 минут)</span>
+	
+</div>
+
+	</div>
+</div>
+<!-- end block: forum_list_who_visited -->
+
+		
+		
+		
+
+		
+		
+			<div class="section profilePostList">
+				<div class="secondaryContent">
+					<h3><a href="find-new/profile-posts">Новые сообщения профиля</a></h3>
+					
+<ul id="ProfilePostList" class="">
+
+	
+
+
+<li id="profile-post-489" class="profilePostListItem   " data-author="samko">
+
+	<a href="members/samko.3018/" class="avatar Av3018s" data-avatarhtml="true"><img src="styles/default/xenforo/avatars/avatar_male_s.png" width="48" height="48" alt="samko" /></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="members/samko.3018/" class="username" dir="auto">samko</a>
+				
+					<span class="muted">&#9658;</span> <a href="members/cro.1/" class="username" dir="auto"><span class="style3">Cro</span></a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">привет тут ?</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="profile-posts/489/" title="Постоянная ссылка" class="item muted"><abbr class="DateTime" data-time="1450208098" data-diff="53776" data-datestring="15 дек 2015" data-timestring="23:34">15 дек 2015 в 23:34</abbr></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="profile-posts/489/" class="item Tooltip OverlayTrigger" title="Взаимодействовать" data-tipclass="flipped" data-offsetX="7" data-offsetY="-7">&#8226;&#8226;&#8226;</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-488" class="profilePostListItem   " data-author="Доктор Кто">
+
+	<a href="members/doktor-kto.1096/" class="avatar Av1096s" data-avatarhtml="true"><img src="data/avatars/s/1/1096.jpg?1425553314" width="48" height="48" alt="Доктор Кто" /></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="members/doktor-kto.1096/" class="username" dir="auto">Доктор Кто</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">По всем вопросам, круглосуточно <a href="http://vk.com/id_13091989" rel="nofollow" class="externalLink" target="_blank">http://vk.com/id_13091989</a></blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="profile-posts/488/" title="Постоянная ссылка" class="item muted"><span class="DateTime" title="27 ноя 2015 в 23:07">27 ноя 2015</span></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="profile-posts/488/" class="item Tooltip OverlayTrigger" title="Взаимодействовать" data-tipclass="flipped" data-offsetX="7" data-offsetY="-7">&#8226;&#8226;&#8226;</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-487" class="profilePostListItem   " data-author="spamer4437">
+
+	<a href="members/spamer4437.2900/" class="avatar Av2900s" data-avatarhtml="true"><img src="styles/default/xenforo/avatars/avatar_male_s.png" width="48" height="48" alt="spamer4437" /></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="members/spamer4437.2900/" class="username" dir="auto">spamer4437</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">Мимо проходил</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="profile-posts/487/" title="Постоянная ссылка" class="item muted"><span class="DateTime" title="19 ноя 2015 в 15:05">19 ноя 2015</span></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="profile-posts/487/" class="item Tooltip OverlayTrigger" title="Взаимодействовать" data-tipclass="flipped" data-offsetX="7" data-offsetY="-7">&#8226;&#8226;&#8226;</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-485" class="profilePostListItem   " data-author="Cro">
+
+	<a href="members/cro.1/" class="avatar Av1s" data-avatarhtml="true"><img src="data/avatars/s/0/1.jpg?1440834981" width="48" height="48" alt="Cro" /></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="members/cro.1/" class="username" dir="auto"><span class="style3">Cro</span></a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">Много чего но спамить так жостко не нужно !!!</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="profile-posts/485/" title="Постоянная ссылка" class="item muted"><span class="DateTime" title="9 ноя 2015 в 22:48">9 ноя 2015</span></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="profile-posts/485/" class="item Tooltip OverlayTrigger" title="Взаимодействовать" data-tipclass="flipped" data-offsetX="7" data-offsetY="-7">&#8226;&#8226;&#8226;</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+	
+
+
+<li id="profile-post-482" class="profilePostListItem   " data-author="Reactor">
+
+	<a href="members/reactor.1498/" class="avatar Av1498s" data-avatarhtml="true"><img src="data/avatars/s/1/1498.jpg?1438948611" width="48" height="48" alt="Reactor" /></a>
+	
+	<div class="messageInfo">
+		
+		<div class="messageContent">
+			<span class="poster">
+				<a href="members/reactor.1498/" class="username" dir="auto">Reactor</a>
+				
+			</span>
+			<article><blockquote class="ugc baseHtml">Хакер-программист</blockquote></article>
+		</div>
+
+		<div class="messageMeta">
+			<div class="privateControls">
+				<a href="profile-posts/482/" title="Постоянная ссылка" class="item muted"><span class="DateTime" title="6 ноя 2015 в 18:15">6 ноя 2015</span></a>
+			</div>
+
+			<div class="publicControls">
+				<a href="profile-posts/482/" class="item Tooltip OverlayTrigger" title="Взаимодействовать" data-tipclass="flipped" data-offsetX="7" data-offsetY="-7">&#8226;&#8226;&#8226;</a>
+			</div>
+		</div>
+
+	</div>
+</li>
+
+</ul>
+				</div>
+			</div>
+		
+
+		
+		
+
+<div class="section">
+   <div class="secondaryContent">
+       <h3><a href="bannerpage-link/" target="_blank">Наши баннеры</a></h3>
+         <div align="center"> 
+            <p class="text_sidebar">Для вставки наших баннеров на Ваш сайт, нажмите на кнопку и в окне скопируйте нужный код.</p>
+            
+            <p class="booton_sidebar"><a href="banners-link" class="button primary OverlayTrigger Tooltip" title="Клик для получения кодов">Получить код</a></p> 
+         </div>
+   </div>
+</div>
+<!-- block: forum_stats -->
+		<div class="section">
+			<div class="secondaryContent statsList" id="boardStats">
+				<h3>Статистика форума</h3>
+				<div class="pairsJustified">
+					<dl class="discussionCount"><dt>Темы:</dt>
+						<dd>1.348</dd></dl>
+					<dl class="messageCount"><dt>Сообщения:</dt>
+						<dd>12.132</dd></dl>
+					<dl class="memberCount"><dt>Пользователи:</dt>
+						<dd>2.523</dd></dl>
+					<dl><dt>Новый пользователь:</dt>
+						<dd><a href="members/saneklla.3019/" class="username" dir="auto">saneklla</a></dd></dl>
+					<!-- slot: forum_stats_extra -->
+				</div>
+			</div>
+		</div>
+		<!-- end block: forum_stats -->
+
+		
+			
+	
+	<div class="section infoBlock sharePage">
+		<div class="secondaryContent">
+			<h3>Поделиться этой страницей</h3>
+			
+				
+				
+					<div class="tweet shareControl">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal"
+							data-lang="ru-RU"
+							data-url="https://mopesoft.ru/"
+							
+							>Tweet</a>
+					</div>
+						
+				
+					<div class="facebookLike shareControl">
+						
+						<div class="fb-like" data-href="https://mopesoft.ru/" data-layout="button_count" data-action="recommend" data-font="trebuchet ms" data-colorscheme="light"></div>
+					</div>
+				
+				
+					<div class="plusone shareControl">
+						<div class="g-plusone" data-size="medium" data-count="true" data-href="https://mopesoft.ru/"></div>
+					</div>
+					
+						
+			
+		</div>
+	</div>
+
+		
+	
+
+						
+<div class="section" style=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Реклама Google #3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-7189715515727046"
+     data-ad-slot="2398786813"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+						
+					</div>
+				</aside>
+			
+			
+						
+			<div class="breadBoxBottom">
+
+<nav>
+	
+
+	<fieldset class="breadcrumb">
+		<a href="misc/quick-navigation-menu" class="OverlayTrigger jumpMenuTrigger" data-cacheOverlay="true" title="Открыть быструю навигацию"><!--Перейти к...--></a>
+			
+		<div class="boardTitle"><strong>Software And Programming Forum</strong></div>
+		
+		<span class="crumbs">
+			
+				<span class="crust homeCrumb">
+					<a href="https://mopesoft.ru" class="crumb"><span>Главная</span></a>
+					<span class="arrow"><span></span></span>
+				</span>
+			
+			
+			
+				<span class="crust selectedTabCrumb">
+					<a href="https://mopesoft.ru/" class="crumb"><span>Форум</span></a>
+					<span class="arrow"><span>&gt;</span></span>
+				</span>
+			
+			
+			
+		</span>
+	</fieldset>
+</nav></div>
+			
+						
+			<div class="" style=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- тестовые ссылки -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7189715515727046"
+     data-ad-slot="5631454818"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+						
+		</div>
+	</div>
+</div>
+
+<header>
+	
+
+
+<div id="header">
+	<div id="logoBlock">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			
+			<div id="logo"><a href="https://mopesoft.ru">
+				<span></span>
+				<img src="styles/default/xenforo/logo.png" alt="Software And Programming Forum" />
+			</a></div>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+	
+
+<div id="navigation" class="pageWidth withSearch">
+	<div class="pageContent">
+		<nav>
+
+<div class="navTabs">
+	<ul class="publicTabs">
+	
+		<!-- home -->
+        
+            <li class="navTab home PopupClosed"><a href="/rules" class="navLink"><font color="orange">Правила</font></a></li>
+        
+		
+		
+		<!-- extra tabs: home -->
+		
+		
+		
+		<!-- forums -->
+		
+			<li class="navTab forums selected">
+			
+				<a href="https://mopesoft.ru/" class="navLink">Форум</a>
+				<a href="https://mopesoft.ru/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="tabLinks forumsTabLinks">
+					<div class="primaryContent menuHeader">
+						<h3>Форум</h3>
+						<div class="muted">Быстрые ссылки</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						
+						<li><a href="search/?type=post">Поиск сообщений</a></li>
+						
+						<li><a href="find-new/posts" rel="nofollow">Последние сообщения</a></li>
+					
+					</ul>
+				</div>
+			</li>
+		
+		
+		
+		<!-- extra tabs: middle -->
+		
+		
+		
+		<!-- members -->
+		
+			<li class="navTab members Popup PopupControl PopupClosed">
+			
+				<a href="https://mopesoft.ru/members/" class="navLink">Пользователи</a>
+				<a href="https://mopesoft.ru/members/" class="SplitCtrl" rel="Menu"></a>
+				
+				<div class="Menu JsOnly tabMenu membersTabLinks">
+					<div class="primaryContent menuHeader">
+						<h3>Пользователи</h3>
+						<div class="muted">Быстрые ссылки</div>
+					</div>
+					<ul class="secondaryContent blockLinksList">
+					
+						<li><a href="members/">Выдающиеся пользователи</a></li>
+						
+						<li><a href="online/">Сейчас на форуме</a></li>
+						<li><a href="recent-activity/">Недавняя активность</a></li>
+						<li><a href="find-new/profile-posts">Новые сообщения профиля</a></li>
+					
+					</ul>
+				</div>
+			</li>
+						
+		
+		<!-- extra tabs: end -->
+		
+
+		<!-- responsive popup -->
+		<li class="navTab navigationHiddenTabs Popup PopupControl PopupClosed" style="display:none">	
+						
+			<a rel="Menu" class="navLink NoPopupGadget"><span class="menuIcon">Меню</span></a>
+			
+			<div class="Menu JsOnly blockLinksList primaryContent" id="NavigationHiddenMenu"></div>
+		</li>
+			
+		
+		<!-- no selection -->
+		
+		
+	</ul>
+	
+	
+</div>
+
+<span class="helper"></span>
+			
+		</nav>	
+	</div>
+</div>
+	
+
+<div id="searchBar" class="pageWidth">
+	
+	<span id="QuickSearchPlaceholder" title="Поиск">Поиск</span>
+	<fieldset id="QuickSearch">
+		<form action="search/search" method="post" class="formPopup">
+			
+			<div class="primaryControls">
+				<!-- block: primaryControls -->
+				<input type="search" name="keywords" value="" class="textCtrl" placeholder="Поиск..." title="Введите параметры поиска и нажмите ввод" id="QuickSearchQuery" />				
+				<!-- end block: primaryControls -->
+			</div>
+			
+			<div class="secondaryControls">
+				<div class="controlsWrapper">
+				
+					<!-- block: secondaryControls -->
+					<dl class="ctrlUnit">
+						<dt></dt>
+						<dd><ul>
+							<li><label><input type="checkbox" name="title_only" value="1"
+								id="search_bar_title_only" class="AutoChecker"
+								data-uncheck="#search_bar_thread" /> Искать только в заголовках</label></li>
+						</ul></dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_users">Сообщения пользователя:</label></dt>
+						<dd>
+							<input type="text" name="users" value="" class="textCtrl AutoComplete" id="searchBar_users" />
+							<p class="explain">Имена участников (разделяйте запятой).</p>
+						</dd>
+					</dl>
+				
+					<dl class="ctrlUnit">
+						<dt><label for="searchBar_date">Новее чем:</label></dt>
+						<dd><input type="date" name="date" value="" class="textCtrl" id="searchBar_date" /></dd>
+					</dl>
+					
+					
+				</div>
+				<!-- end block: secondaryControls -->
+				
+				<dl class="ctrlUnit submitUnit">
+					<dt></dt>
+					<dd>
+						<input type="submit" value="Поиск" class="button primary Tooltip" title="Искать" />
+						<div class="Popup" id="commonSearches">
+							<a rel="Menu" class="button NoPopupGadget Tooltip" title="Быстрый поиск" data-tipclass="flipped"><span class="arrowWidget"></span></a>
+							<div class="Menu">
+								<div class="primaryContent menuHeader">
+									<h3>Быстрый поиск</h3>
+								</div>
+								<ul class="secondaryContent blockLinksList">
+									<!-- block: useful_searches -->
+									<li><a href="find-new/posts?recent=1" rel="nofollow">Последние сообщения</a></li>
+									
+									<!-- end block: useful_searches -->
+								</ul>
+							</div>
+						</div>
+						<a href="search/" class="button moreOptions Tooltip" title="Расширенный поиск">Больше...</a>
+					</dd>
+				</dl>
+				
+			</div>
+			
+			<input type="hidden" name="_xfToken" value="" />
+		</form>		
+	</fieldset>
+	
+</div>
+</div>
+
+	
+	
+</header>
+
+</div>
+
+<footer>
+	
+
+
+<div class="footer">
+	<div class="pageWidth">
+		<div class="pageContent">
+			
+			<dl class="choosers">
+				
+				
+					<dt>Язык</dt>
+					<dd><a href="misc/language?redirect=%2F" class="OverlayTrigger Tooltip" title="Выбор языка" rel="nofollow">Russian (RU)</a></dd>
+				
+			</dl>
+			
+			
+			<ul class="footerLinks">
+			
+				
+					<li><a href="misc/contact" class="OverlayTrigger" data-overlayOptions="{&quot;fixed&quot;:false}">Обратная связь</a></li>
+				
+				<li><a href="help/">Помощь</a></li>
+				<li><a href="https://mopesoft.ru" class="homeLink">Главная</a></li>
+				<li><a href="/#navigation" class="topLink">Вверх</a></li>
+				<li><a href="forums/-/index.rss" rel="alternate" class="globalFeed" target="_blank"
+					title="RSS-лента для Software And Programming Forum">RSS</a></li>
+			
+			</ul>
+			
+			<span class="helper"></span>
+		</div>
+	</div>
+</div>
+
+<div class="footerLegal">
+	<div class="pageWidth">
+		<div class="pageContent">
+			<ul id="legal">
+			
+				<li><a href="help/terms">Условия и правила</a></li>
+				
+			
+			</ul>
+			
+			<div id="copyright">Forum software by XenForo&trade; <span>&copy;2010-2015 XenForo Ltd.</span> <div style="text-align:left">Перевод: <a class="concealed" href="http://www.xf-russia.ru" target="_blank">XF-Russia.ru</a></div></div>
+			
+		<div>
+		<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=23560213&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/23560213/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:23560213,lang:'ru'});return false}catch(e){}" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter23560213 = new Ya.Metrika({
+                    id:23560213,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->
+		</div>
+			
+			
+			<span class="helper"></span>
+		</div>
+	</div>	
+</div>
+
+</footer>
+
+<script>
+
+
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1450261874,
+		today: 1450209600,
+		todayDow: 3
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: {"dark_taigachat":true,"bb_code":true,"taiga_chat_collapse":true,"taiga_chat_addons":true,"node_list":true,"rellect_nodes_grid":true,"node_category":true,"node_forum":true,"profile_post_list_simple":true,"banners_template":true,"sidebar_share_page":true,"who_visited":true,"login_bar":true,"notices":true,"panel_scroller":true,"csnXF_donationData_sidebarBlock":true,"xfi_sidebarSocialIconblock":true,"VietXfAdvStats":true,"js\/dark\/taigachat.js?1447336069&_v=ec2ca885":true,"js\/VietXfAdvStats\/frontend.js?_v=ec2ca885":true},
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "ec2ca885",
+	_noSocialLogin: false
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Отмена",
+
+	a_moment_ago:    "только что",
+	one_minute_ago:  "минуту назад",
+	x_minutes_ago:   "%minutes% мин. назад",
+	today_at_x:      "Сегодня, в %time%",
+	yesterday_at_x:  "Вчера, в %time%",
+	day_x_at_time_y: "%day% в %time%",
+
+	day0: "Воскресенье",
+	day1: "Понедельник",
+	day2: "Вторник",
+	day3: "Среда",
+	day4: "Четверг",
+	day5: "Пятница",
+	day6: "Суббота",
+
+	_months: "Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь",
+	_daysShort: "Вс,Пн,Вт,Ср,Чт,Пт,Сб",
+
+	following_error_occurred: "Произошла ошибка",
+	server_did_not_respond_in_time_try_again: "Сервер не ответил вовремя. Пожалуйста, попробуйте снова.",
+	logging_in: "Авторизация",
+	click_image_show_full_size_version: "Нажмите на это изображение для просмотра полноразмерной версии.",
+	show_hidden_content_by_x: "Показать скрытое содержимое от {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = true;
+
+
+</script>
+
+	<script type="text/javascript">
+var pimplink = "privatelink.de";
+
+var protected_links = "";
+var a_to_va = 0;
+var a_to_vb = 0;
+var a_to_vc = "";
+function auto_anonymize()
+{
+	auto_anonyminize();
+}
+function auto_anonyminize()
+{
+	var a_to_vd = window.location.hostname;
+	if(protected_links != "" && !protected_links.match(a_to_vd))
+	{
+		protected_links += ", " + a_to_vd;
+	}
+	else if(protected_links == "")
+	{
+		protected_links = a_to_vd;
+	}
+	var a_to_ve = "";
+	var a_to_vf = new Array();
+	var a_to_vg = 0;
+	a_to_ve = document.getElementsByTagName("a");
+	a_to_va = a_to_ve.length;
+	a_to_vf = a_to_fa();
+	a_to_vg = a_to_vf.length;
+	var a_to_vh = false;
+	var j = 0;
+	var a_to_vi = "";
+	for(var i = 0; i < a_to_va; i++)
+	{
+		a_to_vh = false;
+		j = 0;
+		while(a_to_vh == false && j < a_to_vg)
+		{
+			a_to_vi = a_to_ve[i].href;
+			if(a_to_vi.match(a_to_vf[j]) || !a_to_vi || !a_to_vi.match(/^https?:\/\//))
+			{
+				a_to_vh = true;
+			}
+			j++;
+		}
+		
+		if(a_to_vh == false)
+		{
+			a_to_ve[i].href = "http://"+pimplink+"?" + a_to_vi;	
+            a_to_ve[i].rel  = "nofollow";			
+			a_to_vb++;
+			a_to_vc += i + ":::" + a_to_ve[i].href + "\n" ;	
+		}
+	}
+	var a_to_vj = document.getElementById("anonyminized");
+	var a_to_vk = document.getElementById("found_links");
+	if(a_to_vj)
+	{
+		a_to_vj.innerHTML += a_to_vb;
+	}
+	if(a_to_vk)
+	{
+		a_to_vk.innerHTML += a_to_va;
+	}	
+}
+function a_to_fa()
+{
+	var a_to_vf = new Array();
+	protected_links = protected_links.replace(" ", "");
+	a_to_vf = protected_links.split(",");
+	return a_to_vf;
+}
+</script>
+	
+	<script type="text/javascript"><!--
+	protected_links = "";
+	
+	auto_anonymize();
+	//--></script>
+
+
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://mopesoft.ru/",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://mopesoft.ru/search/search?keywords={search_keywords}",
+		"query-input": "required name=search_keywords"
+	}
+}
+</script>
+
+
+
+</body>
+</html>

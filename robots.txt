@@ -1,0 +1,73 @@
+﻿User-agent: *
+Disallow:
+Sitemap: http://MOPESOFT.RU/sitemap.xml
+
+
+
+<?php
+
+class Database {
+    private $pdo;
+
+    public function __construct($host, $dbname, $username, $password) {
+        $this->pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    }
+
+    public function query($sql, $params = []) {
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute($params);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+}
+
+class User {
+    private $db;
+
+    public function __construct(Database $db) {
+        $this->db = $db;
+    }
+
+    public function getUser($id) {
+        return $this->db->query("SELECT * FROM users WHERE id = ?", [$id]);
+    }
+}
+
+class Item {
+    private $db;
+
+    public function __construct(Database $db) {
+        $this->db = $db;
+    }
+
+    public function getItem($id) {
+        return $this->db->query("SELECT * FROM items WHERE id = ?", [$id]);
+    }
+}
+
+class Market {
+    private $db;
+
+    public function __construct(Database $db) {
+        $this->db = $db;
+    }
+
+    public function getMarketItems() {
+        return $this->db->query("SELECT * FROM market");
+    }
+
+    public function buyItem($userId, $itemId) {
+        // Здесь будет код для покупки товара
+    }
+}
+
+$db = new Database('localhost', 'game', 'root', 'password');
+$user = new User($db);
+$item = new Item($db);
+$market = new Market($db);
+
+$userData = $user->getUser(1);
+$itemData = $item->getItem(1);
+$marketItems = $market->getMarketItems();
+
+// Здесь будет код для отображения данных на странице рынка
+?>
