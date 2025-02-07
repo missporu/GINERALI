@@ -1461,12 +1461,13 @@ if ($user) {
 // Фильтруем входящие данные
     $_GET['case'] = isset($_GET['case']) ? filter_var($_GET['case'], FILTER_SANITIZE_STRING) : null;
 
+    $i1 = time() - 600;
 // Обновляем данные в таблице user_set
     $stmt = $pdo->prepare("UPDATE `user_set` SET `online`='' WHERE `online`<:time");
-    $stmt->execute(['time' => time() - 600]);
+    $stmt->execute(['time' => $i1]);
 
 }
 $stmt = $pdo->prepare("UPDATE `user_set` SET `online`='' WHERE `online`<:time");
-$i1 = time() - 600;
+
 $stmt->bindParam(':time', $i1);
 $stmt->execute();
