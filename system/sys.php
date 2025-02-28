@@ -199,7 +199,7 @@ function _DayTime($time)
                 $timeString .= $amount . ' ' . $unit . ' ';
             }
         }
-        return trim($timeString); // Убран лишний пробел в конце строки
+        return trim($timeString);
     } else {
         return false;
     }
